@@ -28,7 +28,7 @@ body {
 }
 .intro-text {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 25px;
   letter-spacing: -0.5px;
   color: #927b91;
@@ -68,9 +68,28 @@ body {
 }
 .testimonial-biog {
     display: flex;
+    margin-bottom: 26px;
 }
 .biog-photo {
     border-radius: 50%;
     height: 40px;
     margin-right: 23px;
+}
+.biog-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.biog-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.biog-role {
+  font-weight: 400;
+  color: #EE69A4;
+}
+.biog-quote {
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.23px;
 }
