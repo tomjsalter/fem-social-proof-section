@@ -10,7 +10,10 @@ body {
   font-size: 13px;
   margin: auto;
   padding: 80px 24px 99px 24px;
-  border: 1px solid black;
+  background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+  background-size: 375px, cover 375px;
+  background-repeat: no-repeat;
+  background-position: top center, bottom center;
 }
 
 /* INTRODUCTION */
@@ -92,4 +95,9 @@ body {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: -0.23px;
+}
+
+/* ATTRIBUTION */
+.attribution {
+  margin-top: 60px;
 }
