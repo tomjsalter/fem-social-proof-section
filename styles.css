@@ -110,13 +110,16 @@ body {
   body {
     width: 1440px;
     padding-top: 0px;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-size: 584px, 1085px;
+    background-position: top left, bottom right;
   }
   .header-grid {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 1100px;
     height: 235px;
-    margin: 127px auto;
+    margin: 127px auto 0px;
   }
   .intro {
     width: 445px;
@@ -135,7 +138,9 @@ body {
   }
   .ratings {
     height: 200px;
+    margin-bottom: 40px;
     align-self: center;
+    justify-self: end;
   }
    .ratings-box {
     display: flex;
@@ -160,12 +165,20 @@ body {
   .testimonials {
     width: 1100px;
     display: flex;
-    margin: auto;
+    margin: 72px auto 0px;
   }
   .testimonial-box {
     width: 350px;
   }
   .tb-1, .tb-2 {
     margin-right: 30px;
+    height: 234px;
+  }
+  .tb-2 {
+    margin-top: 16px;
+  }
+  .tb-3 {
+    margin-top: 32px;
+    height: 234px;
   }
 }
